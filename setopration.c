@@ -3,9 +3,7 @@
 
 #define SIZE 9
 
-typedef struct {
-    unsigned char x : 1;
-} bit;
+typedef struct { unsigned char x : 1;} bit;
 
 // Universal set
 const int uset[SIZE] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
